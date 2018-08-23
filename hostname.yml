@@ -1,0 +1,5 @@
+- name: show commands demo
+  tasks:
+    - name: run show version
+      ios_command:
+        commands: show version
